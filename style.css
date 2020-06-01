@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border: 1px solid blue;
+}
+
+button {
+    display: block;
+    padding: 25px 15px;
+    margin: 15px auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+#counter {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2rem;
+    margin: auto;
+    border: 1px solid blue;
+}
+
+.positive {
+    background-color: green;
+    color: white;
+
+}
+
+.negative {
+    background-color: red;
+    color: white;
+}
+
+.neutral {
+    background-color: white;
+    color: black;
+}
